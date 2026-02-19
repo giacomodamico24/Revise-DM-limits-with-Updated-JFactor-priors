@@ -8,21 +8,19 @@ The method consistently propagates revised J-factor information into existing li
 
 The repository includes two Jupyter notebooks that reproduce key validation results presented in the paper:
 
-### 1. Figure 1 — Toy Monte Carlo Validation (Single Target)
+### Test_with_Toy_MCs.ipynb  
 
 This notebook reproduces Figure 1 of the paper.
 It validates the updating procedure in a controlled toy Monte Carlo setup for a single target, considering:
-	•	Gaussian J-factor prior
-	•	Log-normal J-factor prior
+- Gaussian J-factor prior
+- Log-normal J-factor prior
 
-The notebook demonstrates that the numerical solution of the update equation correctly reproduces the full profile likelihood result under both prior assumptions.
 
-### 2. Figure 3 — Multi-Target Validation
+### Combine_ULs.ipynb
 
 This notebook reproduces Figure 3 of the paper.
 It validates the method in the multi-target case, where the combined likelihood is constructed as the sum of individual target contributions.
 
-The notebook shows that updating limits under revised J-factor priors remains consistent in the presence of multiple targets and combined likelihoods.
 
 ## Requirements
 
